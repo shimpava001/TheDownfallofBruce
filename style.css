@@ -1,0 +1,9 @@
+.caprasimo-regular {
+  font-family: "Caprasimo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+    background-image:url("\Images\Background.jpg");
+    background-size: 100%;
+}
