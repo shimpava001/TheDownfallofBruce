@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+    height: 100vh;
+    margin: 0;
+}
+.line{
+  width:auto;
+  height:500px;
+  margin-bottom: 50px;
+  background-color: rgb(32, 134, 182);
+}
+h2{
+  font-size: 50px;
+  font-family: "Caprasimo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.taskbar{
+  display: flex;
+  gap: 200px;
+  justify-content: center;
+  width:auto;
+  height:65px;
+}
+.taskbar a h3{
+  color:white;
+}
