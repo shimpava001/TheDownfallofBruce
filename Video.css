@@ -1,7 +1,8 @@
 body {
-    background-color: black;
-    height: 100vh;
-    margin: 0;
+  background-image:url('D:/The downfall of bruce/Images/Background.jpg');
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
 }
 .line{
   width:auto;
@@ -20,8 +21,20 @@ h2{
   gap: 200px;
   justify-content: center;
   width:auto;
-  height:65px;
+  height:40px;
+  background-color: black;
+  margin-top:-7px;
+  opacity: .8;
+  transition: opacity .5s ease-in-out;
+}
+.taskbar:hover {
+  opacity: 1;
 }
 .taskbar a h3{
   color:white;
+  font-size: medium;
+}
+.on{
+  color:rgb(112, 112, 112);
+  font-size: medium;
 }
