@@ -43,3 +43,26 @@ h1{
   color:rgb(112, 112, 112);
   font-size: medium;
 }
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.placeholder{
+  width: auto;
+  height: 80px;
+}
+.Card{
+  background-color:rgb(255, 255, 255, .5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 90%;
+  border-radius: 10px;
+}
+.Whole{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
