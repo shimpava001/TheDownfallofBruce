@@ -1,0 +1,93 @@
+body{
+  background-image:url('D:/The downfall of bruce/Images/Background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  margin: 0;
+}
+.taskbar{
+  display: flex;
+  gap: 200px;
+  justify-content: center;
+  width:auto;
+  height:40px;
+  background-color: black;
+  margin-top:-7px;
+  opacity: .8;
+  transition: opacity .5s ease-in-out;
+}
+.taskbar:hover {
+  opacity: 1;
+}
+.taskbar a h3{
+  color:white;
+  font-size: medium;
+}
+.Video1{
+    border-radius: 10px;
+    opacity: 100%;
+    margin-left: 10%;
+    height:84%;
+    opacity: 100%;
+}
+.Card1_txt{
+    opacity: 100%;
+}
+.Card1{
+    width: 80%;
+    height:70%;
+    background-color: rgba(255,255,255,.5);
+    margin-left: 10%;
+    margin-top: 3%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Video2{
+    border-radius: 10px;
+    opacity: 100%;
+    margin-left: 10%;
+    height:84%;
+    opacity: 100%;
+}
+.Card2_txt{
+    opacity: 100%;
+}
+.Card2{
+    width: 80%;
+    height:70%;
+    margin-left: 10%;
+    margin-top: 3%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255,255,255,.5);
+}
+
+.Video3{
+    border-radius: 10px;
+    opacity: 100%;
+    margin-left: 40%;
+    height:84%;
+    opacity: 100%;
+}
+.Card3_txt{
+    opacity: 100%;
+}
+.Card3{
+    width: 80%;
+    height:70%;
+    background-color: rgba(255,255,255,.5);
+    margin-left: 10%;
+    margin-top: 3%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.placeholder{
+    width: auto;
+    height: 100px;
+}

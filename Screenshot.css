@@ -1,21 +1,9 @@
-body {
+body{
   background-image:url('D:/The downfall of bruce/Images/Background.jpg');
   background-size: cover;
+  background-attachment: fixed;
   height: 100vh;
   margin: 0;
-}
-
-.line{
-  width:auto;
-  height:500px;
-  margin-bottom: 50px;
-  background-color: rgb(32, 134, 182);
-}
-h2{
-  font-size: 50px;
-  font-family: "Caprasimo", serif;
-  font-weight: 400;
-  font-style: normal;
 }
 .taskbar{
   display: flex;
@@ -35,11 +23,18 @@ h2{
   color:white;
   font-size: medium;
 }
-h1{
-  color: white;
-  font-size: 50px;
+.Row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 2%;
 }
-.on{
-  color:rgb(112, 112, 112);
-  font-size: medium;
+.Screenshot{
+    width:20%;
+    height:50%;
+}
+.placeholder{
+    width: auto;
+    height: 100px;
 }
