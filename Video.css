@@ -1,5 +1,5 @@
 body {
-  background-image: url('Images/Background.jpg');
+  background-image:url('D:/The downfall of bruce/Images/Background.jpg');
   background-size: cover;
   height: 100vh;
   margin: 0;
@@ -37,4 +37,28 @@ h2{
 .on{
   color:rgb(112, 112, 112);
   font-size: medium;
+}
+.Megumi{
+  border-radius: 10px;
+}
+.border{
+  border-style: dashed;
+  width: 840px;
+  height: 472.5px;
+  border-width: 6px;
+  border-radius: 10px;
+}
+.Card1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top_placeholder{
+    width: auto;
+    height: 60px;
 }
